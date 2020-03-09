@@ -1,0 +1,1082 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title "LED Дисплей"
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 "opex"
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L power:GND #PWR0101
+U 1 1 5E650F3A
+P 3750 4700
+F 0 "#PWR0101" H 3740 4470 50  0001 C CNN
+F 1 "GND" H 3750 4550 50  0001 C CNN
+F 2 "" H 3750 4700 50  0001 C CNN
+F 3 "" H 3750 4700 50  0001 C CNN
+	1    3750 4700
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0102
+U 1 1 5E65179D
+P 2300 3050
+F 0 "#PWR0102" H 2290 2820 50  0001 C CNN
+F 1 "GND" H 2300 2900 50  0001 C CNN
+F 2 "" H 2300 3050 50  0001 C CNN
+F 3 "" H 2300 3050 50  0001 C CNN
+	1    2300 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:AVDD #PWR0103
+U 1 1 5E651FB3
+P 2300 2400
+F 0 "#PWR0103" H 2450 2250 50  0001 C CNN
+F 1 "AVDD" H 2305 2623 50  0000 C CNN
+F 2 "" H 2300 2400 50  0001 C CNN
+F 3 "" H 2300 2400 50  0001 C CNN
+	1    2300 2400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3800 4500 3800 4550
+Wire Wire Line
+	3800 4700 3750 4700
+Wire Wire Line
+	2000 2500 2300 2500
+Wire Wire Line
+	2300 2500 2300 2400
+Wire Wire Line
+	2300 3050 2300 2900
+Wire Wire Line
+	2300 2900 2000 2900
+Entry Wire Line
+	2400 2600 2500 2700
+Entry Wire Line
+	2400 2700 2500 2800
+Entry Wire Line
+	2400 2800 2500 2900
+Wire Wire Line
+	2400 2600 2000 2600
+Wire Wire Line
+	2000 2700 2400 2700
+Wire Wire Line
+	2000 2800 2400 2800
+Text Label 2150 2600 0    50   ~ 0
+SDI
+Text Label 2150 2700 0    50   ~ 0
+CLK
+Text Label 2150 2800 0    50   ~ 0
+LE
+Wire Wire Line
+	3300 3200 3100 3200
+Wire Wire Line
+	3300 3300 3100 3300
+Wire Wire Line
+	3300 3400 3100 3400
+Entry Wire Line
+	3000 3100 3100 3200
+Entry Wire Line
+	3000 3300 3100 3400
+Entry Wire Line
+	3000 3200 3100 3300
+Text Label 3150 3200 0    50   ~ 0
+SDI
+Text Label 3150 3300 0    50   ~ 0
+CLK
+Text Label 3150 3400 0    50   ~ 0
+LE
+$Comp
+L power:AVDD #PWR0108
+U 1 1 5E683458
+P 3800 2250
+F 0 "#PWR0108" H 3950 2100 50  0001 C CNN
+F 1 "AVDD" H 3805 2473 50  0000 C CNN
+F 2 "" H 3800 2250 50  0001 C CNN
+F 3 "" H 3800 2250 50  0001 C CNN
+	1    3800 2250
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3800 2250 3800 2550
+Entry Wire Line
+	4700 4200 4600 4300
+Entry Wire Line
+	4700 4000 4600 4100
+Entry Wire Line
+	4700 4100 4600 4200
+Entry Wire Line
+	4700 3900 4600 4000
+Entry Wire Line
+	4700 3800 4600 3900
+Entry Wire Line
+	4700 3700 4600 3800
+Entry Wire Line
+	4700 3600 4600 3700
+Entry Wire Line
+	4700 3500 4600 3600
+Entry Wire Line
+	4700 3400 4600 3500
+Entry Wire Line
+	4700 3300 4600 3400
+Entry Wire Line
+	4700 3200 4600 3300
+Entry Wire Line
+	4700 3100 4600 3200
+Entry Wire Line
+	4700 3000 4600 3100
+Entry Wire Line
+	4700 2900 4600 3000
+Entry Wire Line
+	4700 2700 4600 2800
+Entry Wire Line
+	4700 2800 4600 2900
+Connection ~ 6300 1050
+Wire Wire Line
+	6300 1150 6300 1050
+Wire Wire Line
+	6200 1150 6300 1150
+Wire Wire Line
+	6300 1050 6300 1000
+Wire Wire Line
+	6200 1050 6300 1050
+Connection ~ 4600 1050
+Wire Wire Line
+	4600 1150 4600 1050
+Wire Wire Line
+	4500 1150 4600 1150
+Wire Wire Line
+	4600 1050 4600 1000
+Wire Wire Line
+	4500 1050 4600 1050
+$Comp
+L power:AVDD #PWR0109
+U 1 1 5E643962
+P 4600 1000
+F 0 "#PWR0109" H 4750 850 50  0001 C CNN
+F 1 "AVDD" H 4605 1223 50  0000 C CNN
+F 2 "" H 4600 1000 50  0001 C CNN
+F 3 "" H 4600 1000 50  0001 C CNN
+	1    4600 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:AVDD #PWR0110
+U 1 1 5E642787
+P 6300 1000
+F 0 "#PWR0110" H 6450 850 50  0001 C CNN
+F 1 "AVDD" H 6305 1223 50  0000 C CNN
+F 2 "" H 6300 1000 50  0001 C CNN
+F 3 "" H 6300 1000 50  0001 C CNN
+	1    6300 1000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6400 1750 6200 1750
+Wire Wire Line
+	4550 1750 4500 1750
+Wire Wire Line
+	4850 1650 5200 1650
+Wire Wire Line
+	4850 1550 5200 1550
+Wire Wire Line
+	4850 1450 5200 1450
+Wire Wire Line
+	4850 1350 5200 1350
+Wire Wire Line
+	4850 1250 5200 1250
+Wire Wire Line
+	4850 1150 5200 1150
+Wire Wire Line
+	5200 1050 4850 1050
+Entry Wire Line
+	4750 1650 4850 1550
+Entry Wire Line
+	4750 1750 4850 1650
+Entry Wire Line
+	4750 1450 4850 1350
+Entry Wire Line
+	4750 1550 4850 1450
+Entry Wire Line
+	4750 1350 4850 1250
+Entry Wire Line
+	4750 1250 4850 1150
+Entry Wire Line
+	4750 1150 4850 1050
+Wire Wire Line
+	3150 1650 3500 1650
+Wire Wire Line
+	3150 1550 3500 1550
+Wire Wire Line
+	3150 1450 3500 1450
+Wire Wire Line
+	3150 1350 3500 1350
+Wire Wire Line
+	3150 1250 3500 1250
+Wire Wire Line
+	3150 1150 3500 1150
+Wire Wire Line
+	3500 1050 3150 1050
+Entry Wire Line
+	3050 1650 3150 1550
+Entry Wire Line
+	3050 1750 3150 1650
+Entry Wire Line
+	3050 1450 3150 1350
+Entry Wire Line
+	3050 1550 3150 1450
+Entry Wire Line
+	3050 1350 3150 1250
+Entry Wire Line
+	3050 1250 3150 1150
+Entry Wire Line
+	3050 1150 3150 1050
+$Comp
+L Display_Character:LTS-6960HR AFF2
+U 1 1 5E63F4C5
+P 5700 1450
+F 0 "AFF2" H 5700 2117 50  0000 C CNN
+F 1 "LTS-6960HR" H 5700 2026 50  0000 C CNN
+F 2 "Display_7Segment:7SegmentLED_LTS6760_LTS6780" H 5700 850 50  0001 C CNN
+F 3 "https://datasheet.octopart.com/LTS-6960HR-Lite-On-datasheet-11803242.pdf" H 5700 1450 50  0001 C CNN
+	1    5700 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Display_Character:LTS-6960HR AFF1
+U 1 1 5E63E650
+P 4000 1450
+F 0 "AFF1" H 4000 2117 50  0000 C CNN
+F 1 "LTS-6960HR" H 4000 2026 50  0000 C CNN
+F 2 "Display_7Segment:7SegmentLED_LTS6760_LTS6780" H 4000 850 50  0001 C CNN
+F 3 "https://datasheet.octopart.com/LTS-6960HR-Lite-On-datasheet-11803242.pdf" H 4000 1450 50  0001 C CNN
+	1    4000 1450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4600 4300 4300 4300
+Wire Wire Line
+	4600 4200 4300 4200
+Wire Wire Line
+	4600 4100 4300 4100
+Wire Wire Line
+	4600 4000 4300 4000
+Wire Wire Line
+	4600 3900 4300 3900
+Wire Wire Line
+	4600 3800 4300 3800
+Wire Wire Line
+	4600 3700 4300 3700
+Wire Wire Line
+	4600 3600 4300 3600
+Wire Wire Line
+	4600 3500 4300 3500
+Wire Wire Line
+	4600 3400 4300 3400
+Wire Wire Line
+	4600 3300 4300 3300
+Wire Wire Line
+	4600 3200 4300 3200
+Wire Wire Line
+	4600 3100 4300 3100
+Wire Wire Line
+	4600 3000 4300 3000
+Wire Wire Line
+	4600 2900 4300 2900
+Wire Wire Line
+	4600 2800 4300 2800
+$Comp
+L MBI5024:MBI5024 U1
+U 1 1 5E644F4A
+P 3800 3450
+F 0 "U1" H 3800 4531 50  0000 C CNN
+F 1 "MBI5024" H 3800 4440 50  0000 C CNN
+F 2 "Package_SO:SSOP-24_3.9x8.7mm_P0.635mm" H 3850 3650 50  0001 C CNN
+F 3 "http://belchip.by/sitedocs/00006155.pdf" H 3850 3650 50  0001 C CNN
+	1    3800 3450
+	1    0    0    -1  
+$EndComp
+Wire Bus Line
+	4700 2000 4750 2000
+Connection ~ 4700 2000
+Entry Wire Line
+	4750 2000 4850 2100
+Wire Wire Line
+	6400 2100 4850 2100
+Wire Wire Line
+	6400 1750 6400 2100
+Entry Wire Line
+	4550 1900 4650 2000
+Wire Wire Line
+	4550 1750 4550 1900
+Wire Bus Line
+	3000 3100 2500 3100
+Connection ~ 2500 3100
+$Comp
+L power:AVDD #PWR0105
+U 1 1 5E7E4E85
+P 7650 2250
+F 0 "#PWR0105" H 7800 2100 50  0001 C CNN
+F 1 "AVDD" H 7655 2473 50  0000 C CNN
+F 2 "" H 7650 2250 50  0001 C CNN
+F 3 "" H 7650 2250 50  0001 C CNN
+	1    7650 2250
+	0    1    1    0   
+$EndComp
+Connection ~ 10150 1050
+Wire Wire Line
+	10150 1150 10150 1050
+Wire Wire Line
+	10150 1050 10150 1000
+Connection ~ 8450 1050
+Wire Wire Line
+	8450 1150 8450 1050
+Wire Wire Line
+	8350 1150 8450 1150
+Wire Wire Line
+	8450 1050 8450 1000
+Wire Wire Line
+	8350 1050 8450 1050
+$Comp
+L power:AVDD #PWR0106
+U 1 1 5E7E4EA6
+P 8450 1000
+F 0 "#PWR0106" H 8600 850 50  0001 C CNN
+F 1 "AVDD" H 8455 1223 50  0000 C CNN
+F 2 "" H 8450 1000 50  0001 C CNN
+F 3 "" H 8450 1000 50  0001 C CNN
+	1    8450 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:AVDD #PWR0107
+U 1 1 5E7E4EAC
+P 10150 1000
+F 0 "#PWR0107" H 10300 850 50  0001 C CNN
+F 1 "AVDD" H 10155 1223 50  0000 C CNN
+F 2 "" H 10150 1000 50  0001 C CNN
+F 3 "" H 10150 1000 50  0001 C CNN
+	1    10150 1000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10250 1750 10150 1750
+Wire Wire Line
+	8400 1750 8350 1750
+Wire Wire Line
+	8700 1650 9150 1650
+Wire Wire Line
+	8700 1550 9150 1550
+Wire Wire Line
+	8700 1450 9150 1450
+Wire Wire Line
+	8700 1350 9150 1350
+Wire Wire Line
+	8700 1250 9150 1250
+Wire Wire Line
+	8700 1150 9150 1150
+Wire Wire Line
+	9150 1050 8700 1050
+Entry Wire Line
+	8600 1650 8700 1550
+Entry Wire Line
+	8600 1750 8700 1650
+Entry Wire Line
+	8600 1450 8700 1350
+Entry Wire Line
+	8600 1550 8700 1450
+Entry Wire Line
+	8600 1350 8700 1250
+Entry Wire Line
+	8600 1250 8700 1150
+Entry Wire Line
+	8600 1150 8700 1050
+Wire Wire Line
+	7000 1650 7350 1650
+Wire Wire Line
+	7000 1550 7350 1550
+Wire Wire Line
+	7000 1450 7350 1450
+Wire Wire Line
+	7000 1350 7350 1350
+Wire Wire Line
+	7000 1250 7350 1250
+Wire Wire Line
+	7000 1150 7350 1150
+Wire Wire Line
+	7350 1050 7000 1050
+Entry Wire Line
+	6900 1650 7000 1550
+Entry Wire Line
+	6900 1750 7000 1650
+Entry Wire Line
+	6900 1450 7000 1350
+Entry Wire Line
+	6900 1550 7000 1450
+Entry Wire Line
+	6900 1350 7000 1250
+Entry Wire Line
+	6900 1250 7000 1150
+Entry Wire Line
+	6900 1150 7000 1050
+$Comp
+L Display_Character:LTS-6960HR AFF4
+U 1 1 5E7E4ED0
+P 9650 1450
+F 0 "AFF4" H 9650 2117 50  0000 C CNN
+F 1 "LTS-6960HR" H 9650 2026 50  0000 C CNN
+F 2 "Display_7Segment:7SegmentLED_LTS6760_LTS6780" H 9650 850 50  0001 C CNN
+F 3 "https://datasheet.octopart.com/LTS-6960HR-Lite-On-datasheet-11803242.pdf" H 9650 1450 50  0001 C CNN
+	1    9650 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Display_Character:LTS-6960HR AFF3
+U 1 1 5E7E4ED6
+P 7850 1450
+F 0 "AFF3" H 7850 2117 50  0000 C CNN
+F 1 "LTS-6960HR" H 7850 2026 50  0000 C CNN
+F 2 "Display_7Segment:7SegmentLED_LTS6760_LTS6780" H 7850 850 50  0001 C CNN
+F 3 "https://datasheet.octopart.com/LTS-6960HR-Lite-On-datasheet-11803242.pdf" H 7850 1450 50  0001 C CNN
+	1    7850 1450
+	1    0    0    -1  
+$EndComp
+Entry Wire Line
+	8600 2000 8700 2100
+Wire Wire Line
+	10250 1750 10250 2100
+Entry Wire Line
+	8400 1900 8500 2000
+Wire Wire Line
+	8400 1750 8400 1900
+Wire Bus Line
+	5400 3100 5400 5050
+Entry Wire Line
+	3000 3500 3100 3600
+Wire Wire Line
+	3100 3600 3300 3600
+Text Label 3100 3600 0    50   ~ 0
+SDO1
+Text Label 4700 2550 0    50   ~ 0
+LED1-2
+Text Label 4300 2800 0    50   ~ 0
+U1_O-0
+Text Label 4300 2900 0    50   ~ 0
+U1_O-1
+Text Label 4300 3000 0    50   ~ 0
+U1_O-2
+Text Label 4300 3100 0    50   ~ 0
+U1_O-3
+Text Label 4300 3200 0    50   ~ 0
+U1_O-4
+Text Label 4300 3300 0    50   ~ 0
+U1_O-5
+Text Label 4300 3400 0    50   ~ 0
+U1_O-6
+Text Label 4300 3500 0    50   ~ 0
+U1_O-7
+Text Label 4300 3600 0    50   ~ 0
+U1_O-8
+Text Label 4300 3700 0    50   ~ 0
+U1_O-9
+Text Label 4300 3800 0    50   ~ 0
+U1_O-10
+Text Label 4300 3900 0    50   ~ 0
+U1_O-11
+Text Label 4300 4000 0    50   ~ 0
+U1_O-12
+Text Label 4300 4100 0    50   ~ 0
+U1_O-13
+Text Label 4300 4200 0    50   ~ 0
+U1_O-14
+Text Label 4300 4300 0    50   ~ 0
+U1_O-15
+$Comp
+L Resistor_0805:22R R1
+U 1 1 5E9AAB39
+P 3000 3750
+F 0 "R1" V 3354 3863 50  0000 L CNN
+F 1 "1K" V 3445 3863 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3400 3400 50  0001 C CNN
+F 3 "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_22R-22R0-1_C107702.html" H 3300 3900 50  0001 C CNN
+F 4 "Yageo" H 3400 3600 50  0001 C CNN "Manufacturer"
+F 5 "RC0805FR-0722RL" H 3400 3500 50  0001 C CNN "ManufacturerPartNumber"
+	1    3000 3750
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3300 3700 3000 3700
+Wire Wire Line
+	3000 3700 3000 3750
+Wire Wire Line
+	3000 4550 3800 4550
+Connection ~ 3800 4550
+Wire Wire Line
+	3800 4550 3800 4700
+$Comp
+L Connector_Header:826926-5 X1
+U 1 1 5E6584EE
+P 2000 2900
+F 0 "X1" H 2192 2285 50  0000 C CNN
+F 1 "826926-5" H 2192 2376 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x05_P2.54mm_Vertical" H 2350 2300 50  0001 C CIN
+F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=826629&DocType=Customer+Drawing&DocLang=English" H 2200 3200 50  0001 C CNN
+F 4 "TE Connectivity" H 2300 2400 50  0001 C CIN "Manufacturer"
+	1    2000 2900
+	-1   0    0    1   
+$EndComp
+Text Label 3150 1650 0    50   ~ 0
+U1_O-0
+Text Label 3150 1550 0    50   ~ 0
+U1_O-1
+Text Label 3150 1050 0    50   ~ 0
+U1_O-2
+Text Label 3150 1150 0    50   ~ 0
+U1_O-3
+Text Label 3150 1450 0    50   ~ 0
+U1_O-15
+Text Label 3150 1350 0    50   ~ 0
+U1_O-14
+Text Label 3150 1250 0    50   ~ 0
+U1_O-13
+Text Label 4400 1750 0    50   ~ 0
+U1_O-12
+Text Label 4850 1450 0    50   ~ 0
+U1_O-11
+Text Label 4850 1350 0    50   ~ 0
+U1_O-10
+Text Label 6200 1750 0    50   ~ 0
+U1_O-9
+Text Label 4850 1250 0    50   ~ 0
+U1_O-8
+Text Label 4900 1150 0    50   ~ 0
+U1_O-5
+Text Label 4900 1050 0    50   ~ 0
+U1_O-6
+Text Label 4850 1650 0    50   ~ 0
+U1_O-4
+Text Label 4900 1550 0    50   ~ 0
+U1_O-7
+Text Label 7050 1650 0    50   ~ 0
+U2_O-0
+Text Label 7050 1550 0    50   ~ 0
+U2_O-1
+Text Label 7050 1450 0    50   ~ 0
+U2_O-15
+Text Label 7000 1350 0    50   ~ 0
+U2_O-14
+Text Label 7000 1250 0    50   ~ 0
+U2_O-13
+Text Label 7000 1150 0    50   ~ 0
+U2_O-3
+Text Label 7000 1050 0    50   ~ 0
+U2_O-2
+Text Label 8350 1750 0    50   ~ 0
+U2_O-12
+Text Label 9900 2100 0    50   ~ 0
+U2_O-9
+Text Label 8850 1650 0    50   ~ 0
+U2_O-4
+Text Label 8800 1550 0    50   ~ 0
+U2_O-7
+Text Label 8800 1450 0    50   ~ 0
+U2_O-11
+Text Label 8800 1350 0    50   ~ 0
+U2_O-10
+Text Label 8800 1250 0    50   ~ 0
+U2_O-8
+Text Label 8800 1150 0    50   ~ 0
+U2_O-5
+Text Label 8800 1050 0    50   ~ 0
+U2_O-6
+$Comp
+L power:GND #PWR0111
+U 1 1 5E643EFE
+P 2300 4250
+F 0 "#PWR0111" H 2290 4020 50  0001 C CNN
+F 1 "GND" H 2300 4100 50  0001 C CNN
+F 2 "" H 2300 4250 50  0001 C CNN
+F 3 "" H 2300 4250 50  0001 C CNN
+	1    2300 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:AVDD #PWR0112
+U 1 1 5E643F04
+P 2300 3600
+F 0 "#PWR0112" H 2450 3450 50  0001 C CNN
+F 1 "AVDD" H 2305 3823 50  0000 C CNN
+F 2 "" H 2300 3600 50  0001 C CNN
+F 3 "" H 2300 3600 50  0001 C CNN
+	1    2300 3600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2000 3700 2300 3700
+Wire Wire Line
+	2300 3700 2300 3600
+Wire Wire Line
+	2300 4250 2300 4100
+Wire Wire Line
+	2300 4100 2000 4100
+Entry Wire Line
+	2400 3800 2500 3900
+Entry Wire Line
+	2400 3900 2500 4000
+Entry Wire Line
+	2400 4000 2500 4100
+Wire Wire Line
+	2400 3800 2000 3800
+Wire Wire Line
+	2000 3900 2400 3900
+Wire Wire Line
+	2000 4000 2400 4000
+$Comp
+L Connector_Header:826926-5 X2
+U 1 1 5E643F18
+P 2000 4100
+F 0 "X2" H 2192 3485 50  0000 C CNN
+F 1 "826926-5" H 2192 3576 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x05_P2.54mm_Vertical" H 2350 3500 50  0001 C CIN
+F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=826629&DocType=Customer+Drawing&DocLang=English" H 2200 4400 50  0001 C CNN
+F 4 "TE Connectivity" H 2300 3600 50  0001 C CIN "Manufacturer"
+	1    2000 4100
+	-1   0    0    1   
+$EndComp
+Connection ~ 8550 2000
+Wire Bus Line
+	8550 2000 8600 2000
+Wire Wire Line
+	10250 2100 8700 2100
+Wire Wire Line
+	7650 4550 7650 4700
+Connection ~ 7650 4550
+Wire Wire Line
+	6850 4550 7650 4550
+Wire Wire Line
+	6850 3700 7150 3700
+Wire Wire Line
+	6850 3750 6850 3700
+$Comp
+L Resistor_0805:22R R2
+U 1 1 5E9A86EC
+P 6850 3750
+F 0 "R2" V 7204 3863 50  0000 L CNN
+F 1 "1K" V 7295 3863 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7250 3400 50  0001 C CNN
+F 3 "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_22R-22R0-1_C107702.html" H 7150 3900 50  0001 C CNN
+F 4 "Yageo" H 7250 3600 50  0001 C CNN "Manufacturer"
+F 5 "RC0805FR-0722RL" H 7250 3500 50  0001 C CNN "ManufacturerPartNumber"
+	1    6850 3750
+	0    1    1    0   
+$EndComp
+Text Label 8150 4300 0    50   ~ 0
+U2_O-15
+Text Label 8150 4200 0    50   ~ 0
+U2_O-14
+Text Label 8150 4100 0    50   ~ 0
+U2_O-13
+Text Label 8150 4000 0    50   ~ 0
+U2_O-12
+Text Label 8150 3900 0    50   ~ 0
+U2_O-11
+Text Label 8150 3800 0    50   ~ 0
+U2_O-10
+Text Label 8150 3700 0    50   ~ 0
+U2_O-9
+Text Label 8150 3600 0    50   ~ 0
+U2_O-8
+Text Label 8150 3500 0    50   ~ 0
+U2_O-7
+Text Label 8150 3400 0    50   ~ 0
+U2_O-6
+Text Label 8150 3300 0    50   ~ 0
+U2_O-5
+Text Label 8150 3200 0    50   ~ 0
+U2_O-4
+Text Label 8150 3100 0    50   ~ 0
+U2_O-3
+Text Label 8150 3000 0    50   ~ 0
+U2_O-2
+Text Label 8150 2900 0    50   ~ 0
+U2_O-1
+Text Label 8150 2800 0    50   ~ 0
+U2_O-0
+Text Label 8550 2500 0    50   ~ 0
+LED2-3
+NoConn ~ 6950 3600
+Wire Wire Line
+	6950 3600 7150 3600
+Wire Bus Line
+	5400 3100 6850 3100
+$Comp
+L MBI5024:MBI5024 U2
+U 1 1 5E7E4EEE
+P 7650 3450
+F 0 "U2" H 7650 4531 50  0000 C CNN
+F 1 "MBI5024" H 7650 4440 50  0000 C CNN
+F 2 "MBI5024:SSOP-24-1mm" H 7700 3650 50  0001 C CNN
+F 3 "http://belchip.by/sitedocs/00006155.pdf" H 7700 3650 50  0001 C CNN
+	1    7650 3450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8450 2800 8150 2800
+Wire Wire Line
+	8450 2900 8150 2900
+Wire Wire Line
+	8450 3000 8150 3000
+Wire Wire Line
+	8450 3100 8150 3100
+Wire Wire Line
+	8450 3200 8150 3200
+Wire Wire Line
+	8450 3300 8150 3300
+Wire Wire Line
+	8450 3400 8150 3400
+Wire Wire Line
+	8450 3500 8150 3500
+Wire Wire Line
+	8450 3600 8150 3600
+Wire Wire Line
+	8450 3700 8150 3700
+Wire Wire Line
+	8450 3800 8150 3800
+Wire Wire Line
+	8450 3900 8150 3900
+Wire Wire Line
+	8450 4000 8150 4000
+Wire Wire Line
+	8450 4100 8150 4100
+Wire Wire Line
+	8450 4200 8150 4200
+Wire Wire Line
+	8450 4300 8150 4300
+Entry Wire Line
+	8550 2800 8450 2900
+Entry Wire Line
+	8550 2700 8450 2800
+Entry Wire Line
+	8550 2900 8450 3000
+Entry Wire Line
+	8550 3000 8450 3100
+Entry Wire Line
+	8550 3100 8450 3200
+Entry Wire Line
+	8550 3200 8450 3300
+Entry Wire Line
+	8550 3300 8450 3400
+Entry Wire Line
+	8550 3400 8450 3500
+Entry Wire Line
+	8550 3500 8450 3600
+Entry Wire Line
+	8550 3600 8450 3700
+Entry Wire Line
+	8550 3700 8450 3800
+Entry Wire Line
+	8550 3800 8450 3900
+Entry Wire Line
+	8550 3900 8450 4000
+Entry Wire Line
+	8550 4100 8450 4200
+Entry Wire Line
+	8550 4000 8450 4100
+Entry Wire Line
+	8550 4200 8450 4300
+Wire Wire Line
+	7650 2250 7650 2550
+Text Label 7000 3400 0    50   ~ 0
+LE
+Text Label 7000 3300 0    50   ~ 0
+CLK
+Text Label 7000 3200 0    50   ~ 0
+SDO1
+Entry Wire Line
+	6850 3200 6950 3300
+Entry Wire Line
+	6850 3300 6950 3400
+Entry Wire Line
+	6850 3100 6950 3200
+Wire Wire Line
+	7150 3400 6950 3400
+Wire Wire Line
+	7150 3300 6950 3300
+Wire Wire Line
+	7150 3200 6950 3200
+Wire Wire Line
+	7650 4700 7600 4700
+Wire Wire Line
+	7650 4500 7650 4550
+$Comp
+L power:GND #PWR0104
+U 1 1 5E7E4E74
+P 7600 4700
+F 0 "#PWR0104" H 7590 4470 50  0001 C CNN
+F 1 "GND" H 7600 4550 50  0001 C CNN
+F 2 "" H 7600 4700 50  0001 C CNN
+F 3 "" H 7600 4700 50  0001 C CNN
+	1    7600 4700
+	0    1    1    0   
+$EndComp
+$Comp
+L Transistor_BJT:BC847 Q2
+U 1 1 5E6BCA8F
+P 4000 7150
+F 0 "Q2" H 4191 7196 50  0000 L CNN
+F 1 "BC847" H 4191 7105 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 4200 7075 50  0001 L CIN
+F 3 "http://www.infineon.com/dgdl/Infineon-BC847SERIES_BC848SERIES_BC849SERIES_BC850SERIES-DS-v01_01-en.pdf?fileId=db3a304314dca389011541d4630a1657" H 4000 7150 50  0001 L CNN
+	1    4000 7150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Resistor_0805:22R R5
+U 1 1 5E7297AE
+P 3650 5550
+F 0 "R5" V 4004 5663 50  0000 L CNN
+F 1 "1k" V 4095 5663 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4050 5200 50  0001 C CNN
+F 3 "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_22R-22R0-1_C107702.html" H 3950 5700 50  0001 C CNN
+F 4 "Yageo" H 4050 5400 50  0001 C CNN "Manufacturer"
+F 5 "RC0805FR-0722RL" H 4050 5300 50  0001 C CNN "ManufacturerPartNumber"
+	1    3650 5550
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3650 7150 3800 7150
+$Comp
+L Resistor_0805:22R R6
+U 1 1 5E6EA46E
+P 4100 5550
+F 0 "R6" V 4454 5663 50  0000 L CNN
+F 1 "200R" V 4545 5663 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4500 5200 50  0001 C CNN
+F 3 "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_22R-22R0-1_C107702.html" H 4400 5700 50  0001 C CNN
+F 4 "Yageo" H 4500 5400 50  0001 C CNN "Manufacturer"
+F 5 "RC0805FR-0722RL" H 4500 5300 50  0001 C CNN "ManufacturerPartNumber"
+	1    4100 5550
+	0    1    1    0   
+$EndComp
+Entry Wire Line
+	3550 5050 3650 5150
+Entry Wire Line
+	2650 5150 2550 5050
+Wire Wire Line
+	3650 5150 3650 5550
+Wire Wire Line
+	4100 5550 4100 5500
+$Comp
+L Transistor_BJT:BC847 Q3
+U 1 1 5E7516BB
+P 5100 7150
+F 0 "Q3" H 5291 7196 50  0000 L CNN
+F 1 "BC847" H 5291 7105 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 5300 7075 50  0001 L CIN
+F 3 "http://www.infineon.com/dgdl/Infineon-BC847SERIES_BC848SERIES_BC849SERIES_BC850SERIES-DS-v01_01-en.pdf?fileId=db3a304314dca389011541d4630a1657" H 5100 7150 50  0001 L CNN
+	1    5100 7150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Resistor_0805:22R R7
+U 1 1 5E7516C5
+P 4750 5550
+F 0 "R7" V 5104 5663 50  0000 L CNN
+F 1 "1k" V 5195 5663 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5150 5200 50  0001 C CNN
+F 3 "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_22R-22R0-1_C107702.html" H 5050 5700 50  0001 C CNN
+F 4 "Yageo" H 5150 5400 50  0001 C CNN "Manufacturer"
+F 5 "RC0805FR-0722RL" H 5150 5300 50  0001 C CNN "ManufacturerPartNumber"
+	1    4750 5550
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4750 7150 4900 7150
+$Comp
+L Resistor_0805:22R R8
+U 1 1 5E7516CF
+P 5200 5550
+F 0 "R8" V 5554 5663 50  0000 L CNN
+F 1 "200R" V 5645 5663 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5600 5200 50  0001 C CNN
+F 3 "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_22R-22R0-1_C107702.html" H 5500 5700 50  0001 C CNN
+F 4 "Yageo" H 5600 5400 50  0001 C CNN "Manufacturer"
+F 5 "RC0805FR-0722RL" H 5600 5300 50  0001 C CNN "ManufacturerPartNumber"
+	1    5200 5550
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4750 5150 4750 5550
+$Comp
+L Transistor_BJT:BC847 Q1
+U 1 1 5E763E11
+P 3000 7100
+F 0 "Q1" H 3191 7146 50  0000 L CNN
+F 1 "BC847" H 3191 7055 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 3200 7025 50  0001 L CIN
+F 3 "http://www.infineon.com/dgdl/Infineon-BC847SERIES_BC848SERIES_BC849SERIES_BC850SERIES-DS-v01_01-en.pdf?fileId=db3a304314dca389011541d4630a1657" H 3000 7100 50  0001 L CNN
+	1    3000 7100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Resistor_0805:22R R3
+U 1 1 5E763E1B
+P 2650 5250
+F 0 "R3" V 3004 5363 50  0000 L CNN
+F 1 "1k" V 3095 5363 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3050 4900 50  0001 C CNN
+F 3 "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_22R-22R0-1_C107702.html" H 2950 5400 50  0001 C CNN
+F 4 "Yageo" H 3050 5100 50  0001 C CNN "Manufacturer"
+F 5 "RC0805FR-0722RL" H 3050 5000 50  0001 C CNN "ManufacturerPartNumber"
+	1    2650 5250
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2650 7100 2800 7100
+$Comp
+L Resistor_0805:22R R4
+U 1 1 5E763E25
+P 3100 5500
+F 0 "R4" V 3454 5613 50  0000 L CNN
+F 1 "200R" V 3545 5613 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3500 5150 50  0001 C CNN
+F 3 "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_22R-22R0-1_C107702.html" H 3400 5650 50  0001 C CNN
+F 4 "Yageo" H 3500 5350 50  0001 C CNN "Manufacturer"
+F 5 "RC0805FR-0722RL" H 3500 5250 50  0001 C CNN "ManufacturerPartNumber"
+	1    3100 5500
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2650 5150 2650 5250
+Entry Wire Line
+	4650 5050 4750 5150
+$Comp
+L power:AVDD #PWR0113
+U 1 1 5E772118
+P 4100 5400
+F 0 "#PWR0113" H 4250 5250 50  0001 C CNN
+F 1 "AVDD" H 4105 5623 50  0000 C CNN
+F 2 "" H 4100 5400 50  0001 C CNN
+F 3 "" H 4100 5400 50  0001 C CNN
+	1    4100 5400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3100 5500 4100 5500
+Connection ~ 4100 5500
+Wire Wire Line
+	4100 5500 4100 5400
+Wire Wire Line
+	5200 5550 5200 5500
+Wire Wire Line
+	5200 5500 4100 5500
+Wire Wire Line
+	5200 7350 4100 7350
+Wire Wire Line
+	3100 7300 3100 7350
+Wire Wire Line
+	3100 7350 4050 7350
+Connection ~ 4100 7350
+$Comp
+L power:GND #PWR0114
+U 1 1 5E79EBD2
+P 4050 7350
+F 0 "#PWR0114" H 4040 7120 50  0001 C CNN
+F 1 "GND" H 4050 7200 50  0001 C CNN
+F 2 "" H 4050 7350 50  0001 C CNN
+F 3 "" H 4050 7350 50  0001 C CNN
+	1    4050 7350
+	1    0    0    -1  
+$EndComp
+Connection ~ 4050 7350
+Wire Wire Line
+	4050 7350 4100 7350
+Text Label 2650 5200 0    50   ~ 0
+LED-1
+Text Label 3650 5200 0    50   ~ 0
+LED-2
+Text Label 4750 5200 0    50   ~ 0
+LED-3
+Text Label 2000 3900 0    50   ~ 0
+LED-2
+Text Label 2000 4000 0    50   ~ 0
+LED-3
+Text Label 2000 3800 0    50   ~ 0
+LED-1
+$Comp
+L LED_0603:FC-DA1608BK-470H10 HL1
+U 1 1 5E7B1142
+P 3100 6300
+F 0 "HL1" V 3400 6530 50  0000 L CNN
+F 1 "FC-DA1608BK-470H10" H 3600 5800 50  0001 C CIN
+F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3600 5700 50  0001 C CIN
+F 3 "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_Blue-light-SMDLED-80-100mcdatIF-10mA_C84266.html" H 3300 6100 50  0001 C CNN
+F 4 "Foshan NationStar Optoelectronics" H 3600 5900 50  0001 C CIN "Manufacturer"
+	1    3100 6300
+	0    1    1    0   
+$EndComp
+$Comp
+L LED_0603:FC-DA1608BK-470H10 HL3
+U 1 1 5E7B315E
+P 5200 6350
+F 0 "HL3" V 5500 6580 50  0000 L CNN
+F 1 "FC-DA1608BK-470H10" H 5700 5850 50  0001 C CIN
+F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5700 5750 50  0001 C CIN
+F 3 "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_Blue-light-SMDLED-80-100mcdatIF-10mA_C84266.html" H 5400 6150 50  0001 C CNN
+F 4 "Foshan NationStar Optoelectronics" H 5700 5950 50  0001 C CIN "Manufacturer"
+	1    5200 6350
+	0    1    1    0   
+$EndComp
+$Comp
+L LED_0603:FC-DA1608BK-470H10 HL2
+U 1 1 5E7B3B67
+P 4100 6350
+F 0 "HL2" V 4400 6580 50  0000 L CNN
+F 1 "FC-DA1608BK-470H10" H 4600 5850 50  0001 C CIN
+F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4600 5750 50  0001 C CIN
+F 3 "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_Blue-light-SMDLED-80-100mcdatIF-10mA_C84266.html" H 4300 6150 50  0001 C CNN
+F 4 "Foshan NationStar Optoelectronics" H 4600 5950 50  0001 C CIN "Manufacturer"
+	1    4100 6350
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3650 6350 3650 7150
+Wire Wire Line
+	2650 6050 2650 7100
+Wire Wire Line
+	4750 6350 4750 7150
+Wire Bus Line
+	6900 2000 8550 2000
+Wire Bus Line
+	3050 2000 4700 2000
+Wire Bus Line
+	2500 2700 2500 3100
+Wire Bus Line
+	3000 3100 3000 3500
+Wire Bus Line
+	6850 3100 6850 3500
+Wire Bus Line
+	2500 5050 5400 5050
+Wire Bus Line
+	2500 3100 2500 5050
+Wire Bus Line
+	4750 1150 4750 2000
+Wire Bus Line
+	3050 1150 3050 2000
+Wire Bus Line
+	8600 1150 8600 2000
+Wire Bus Line
+	6900 1150 6900 2000
+Wire Bus Line
+	8550 2000 8550 4200
+Wire Bus Line
+	4700 2000 4700 4200
+$EndSCHEMATC

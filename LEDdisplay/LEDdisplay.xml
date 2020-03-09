@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>C:\Users\79029\Documents\KiCAD\Speed  meter\Схемы\LEDdisplay\LEDdisplay.sch</source>
+    <date>07.03.2020 1:23:38</date>
+    <tool>Eeschema (5.1.5)-3</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>LEDdisplay.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="U1">
+      <value>HDSP-A151</value>
+      <footprint>Display_7Segment:HDSP-A151</footprint>
+      <datasheet>https://docs.broadcom.com/docs/AV02-2553EN</datasheet>
+      <libsource lib="Display_Character" part="HDSP-A151" description="One digit 7 segment red, common anode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E62A27F</tstamp>
+    </comp>
+    <comp ref="U3">
+      <value>HDSP-A151</value>
+      <footprint>Display_7Segment:HDSP-A151</footprint>
+      <datasheet>https://docs.broadcom.com/docs/AV02-2553EN</datasheet>
+      <libsource lib="Display_Character" part="HDSP-A151" description="One digit 7 segment red, common anode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E62D7E6</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>HDSP-A151</value>
+      <footprint>Display_7Segment:HDSP-A151</footprint>
+      <datasheet>https://docs.broadcom.com/docs/AV02-2553EN</datasheet>
+      <libsource lib="Display_Character" part="HDSP-A151" description="One digit 7 segment red, common anode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E62E7AC</tstamp>
+    </comp>
+    <comp ref="U4">
+      <value>HDSP-A151</value>
+      <footprint>Display_7Segment:HDSP-A151</footprint>
+      <datasheet>https://docs.broadcom.com/docs/AV02-2553EN</datasheet>
+      <libsource lib="Display_Character" part="HDSP-A151" description="One digit 7 segment red, common anode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E630089</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Display_Character" part="HDSP-A151">
+      <aliases>
+        <alias>HDSP-7501</alias>
+      </aliases>
+      <description>One digit 7 segment red, common anode</description>
+      <docs>https://docs.broadcom.com/docs/AV02-2553EN</docs>
+      <footprints>
+        <fp>HDSP?A151*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">HDSP-A151</field>
+        <field name="Footprint">Display_7Segment:HDSP-A151</field>
+      </fields>
+      <pins>
+        <pin num="1" name="CA" type="input"/>
+        <pin num="2" name="F" type="input"/>
+        <pin num="3" name="G" type="input"/>
+        <pin num="4" name="E" type="input"/>
+        <pin num="5" name="D" type="input"/>
+        <pin num="6" name="CA" type="input"/>
+        <pin num="7" name="DP" type="input"/>
+        <pin num="8" name="C" type="input"/>
+        <pin num="9" name="B" type="input"/>
+        <pin num="10" name="A" type="input"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Display_Character">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Display_Character.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(U4-Pad1)">
+      <node ref="U4" pin="1"/>
+    </net>
+    <net code="2" name="Net-(U2-Pad10)">
+      <node ref="U2" pin="10"/>
+    </net>
+    <net code="3" name="Net-(U2-Pad2)">
+      <node ref="U2" pin="2"/>
+    </net>
+    <net code="4" name="Net-(U2-Pad3)">
+      <node ref="U2" pin="3"/>
+    </net>
+    <net code="5" name="Net-(U2-Pad4)">
+      <node ref="U2" pin="4"/>
+    </net>
+    <net code="6" name="Net-(U2-Pad5)">
+      <node ref="U2" pin="5"/>
+    </net>
+    <net code="7" name="Net-(U2-Pad6)">
+      <node ref="U2" pin="6"/>
+    </net>
+    <net code="8" name="Net-(U2-Pad7)">
+      <node ref="U2" pin="7"/>
+    </net>
+    <net code="9" name="Net-(U2-Pad8)">
+      <node ref="U2" pin="8"/>
+    </net>
+    <net code="10" name="Net-(U2-Pad9)">
+      <node ref="U2" pin="9"/>
+    </net>
+    <net code="11" name="Net-(U2-Pad1)">
+      <node ref="U2" pin="1"/>
+    </net>
+    <net code="12" name="Net-(U4-Pad10)">
+      <node ref="U4" pin="10"/>
+    </net>
+    <net code="13" name="Net-(U4-Pad2)">
+      <node ref="U4" pin="2"/>
+    </net>
+    <net code="14" name="Net-(U4-Pad3)">
+      <node ref="U4" pin="3"/>
+    </net>
+    <net code="15" name="Net-(U4-Pad4)">
+      <node ref="U4" pin="4"/>
+    </net>
+    <net code="16" name="Net-(U4-Pad5)">
+      <node ref="U4" pin="5"/>
+    </net>
+    <net code="17" name="Net-(U4-Pad6)">
+      <node ref="U4" pin="6"/>
+    </net>
+    <net code="18" name="Net-(U4-Pad7)">
+      <node ref="U4" pin="7"/>
+    </net>
+    <net code="19" name="Net-(U4-Pad8)">
+      <node ref="U4" pin="8"/>
+    </net>
+    <net code="20" name="Net-(U4-Pad9)">
+      <node ref="U4" pin="9"/>
+    </net>
+    <net code="21" name="Net-(U3-Pad1)">
+      <node ref="U3" pin="1"/>
+    </net>
+    <net code="22" name="Net-(U1-Pad10)">
+      <node ref="U1" pin="10"/>
+    </net>
+    <net code="23" name="Net-(U1-Pad2)">
+      <node ref="U1" pin="2"/>
+    </net>
+    <net code="24" name="Net-(U1-Pad3)">
+      <node ref="U1" pin="3"/>
+    </net>
+    <net code="25" name="Net-(U1-Pad4)">
+      <node ref="U1" pin="4"/>
+    </net>
+    <net code="26" name="Net-(U1-Pad5)">
+      <node ref="U1" pin="5"/>
+    </net>
+    <net code="27" name="Net-(U1-Pad6)">
+      <node ref="U1" pin="6"/>
+    </net>
+    <net code="28" name="Net-(U1-Pad7)">
+      <node ref="U1" pin="7"/>
+    </net>
+    <net code="29" name="Net-(U1-Pad8)">
+      <node ref="U1" pin="8"/>
+    </net>
+    <net code="30" name="Net-(U1-Pad9)">
+      <node ref="U1" pin="9"/>
+    </net>
+    <net code="31" name="Net-(U1-Pad1)">
+      <node ref="U1" pin="1"/>
+    </net>
+    <net code="32" name="Net-(U3-Pad10)">
+      <node ref="U3" pin="10"/>
+    </net>
+    <net code="33" name="Net-(U3-Pad2)">
+      <node ref="U3" pin="2"/>
+    </net>
+    <net code="34" name="Net-(U3-Pad3)">
+      <node ref="U3" pin="3"/>
+    </net>
+    <net code="35" name="Net-(U3-Pad4)">
+      <node ref="U3" pin="4"/>
+    </net>
+    <net code="36" name="Net-(U3-Pad5)">
+      <node ref="U3" pin="5"/>
+    </net>
+    <net code="37" name="Net-(U3-Pad6)">
+      <node ref="U3" pin="6"/>
+    </net>
+    <net code="38" name="Net-(U3-Pad7)">
+      <node ref="U3" pin="7"/>
+    </net>
+    <net code="39" name="Net-(U3-Pad8)">
+      <node ref="U3" pin="8"/>
+    </net>
+    <net code="40" name="Net-(U3-Pad9)">
+      <node ref="U3" pin="9"/>
+    </net>
+  </nets>
+</export>
